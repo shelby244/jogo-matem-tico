@@ -20,15 +20,13 @@
         padding-bottom:20%; 
     }
 
-.pergunta{
-    background-image: url(https://th.bing.com/th/id/OIP.Kua6N6b067yD1NT2vpl_QQHaEK?pid=ImgDet&rs=1);
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-}
+    html{
+   background-color: rgb(17, 10, 10);
+        
+        
+    }
 
 
-    
     
     .pergunta{
         display: table;
@@ -48,7 +46,7 @@
     .pergunta button{
         display: table-cell;
         vertical-align: middle;
-    width: 10%;
+   
     height: 10%;
 
     }
@@ -58,6 +56,12 @@
         margin-bottom: auto;
         font-size: 4em;
     }
+    
+.pergunta{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+    
     .b1{
         margin-right: 5%;
         margin-top: 5%;
@@ -71,6 +75,7 @@
     .b2,
     .b3,
     .b4{
+        width: 20%;
         font-size: 1.7em;
         text-shadow: 1px 1px 10px rgb(0, 0, 0);
         background-color: rgb(255, 241, 241);
@@ -87,5 +92,6 @@
         font-size: 4em;
 
     }
+  
   
 
